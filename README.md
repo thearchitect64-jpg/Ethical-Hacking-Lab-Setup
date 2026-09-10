@@ -173,14 +173,13 @@ GitHub
 
 **Phase 1 Status**
 
- -VirtualBox installed
- -NAT Network created
- -Kali Linux installed
- -Kali network configured
- -Network connectivity tested
- -Kali GUI configured
- -Clean snapshot created
+<img width="295" height="209" alt="image" src="https://github.com/user-attachments/assets/a51a12fb-41d6-48f2-a110-8a6fe4657626" />
 
+
+**Author:** Donald Mason
+Cybersecurity Student Batch 083
+
+LinkedIn: https://www.linkedin.com/in/donald-e-mason-3rd/
 
 
 
