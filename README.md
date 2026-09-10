@@ -55,10 +55,13 @@ VirtualBox is being used to create and manage the virtual machines used in this 
 
 **Step 2** - Create the Private NAT Network
 I created a custom NAT Network in VirtualBox called:
+
 Ethical Hacking Lab
 The network uses:
 10.0.0.0/24
 This provides a private network for the cybersecurity lab.
+
+<img width="3068" height="1336" alt="image" src="https://github.com/user-attachments/assets/c93a78b6-d26c-4fbe-acc5-1b3e198b1455" />
 
 
 **Step 3** - Install Kali Linux
@@ -69,6 +72,8 @@ RAM:           2048 MB
 Network:       Ethical Hacking Lab
 Adapter Type:  Intel PRO/1000 MT Desktop
 ```
+<img width="2122" height="1368" alt="image" src="https://github.com/user-attachments/assets/4ab0d350-962b-45bb-99fc-589b1f36e8ad" />
+
 
 **Step 4** - Configure Kali Networking
 I verified the Kali network configuration using:
@@ -76,6 +81,9 @@ I verified the Kali network configuration using:
 ```
 ip addr
 ```
+<img width="2784" height="1934" alt="image" src="https://github.com/user-attachments/assets/b9ec4966-5db7-4549-9746-74950ca47ec9" />
+
+
 The Kali VM received the following address:
 ```
 10.0.0.4/24
@@ -84,6 +92,9 @@ ip route
   Default Gateway:
 10.0.0.1
 ```
+<img width="1968" height="1038" alt="image" src="https://github.com/user-attachments/assets/f4af6ce1-e87a-42f4-bce2-13e4ab039d62" />
+
+
 I tested the connection to the virtual network gateway / internet connectivity / DNS resolution
 ```
 ping -c 4 10.0.0.1
@@ -99,6 +110,9 @@ After completing the initial Kali configuration, I created a VirtualBox snapshot
 Snapshot Name : CleanKali 2026.2
 ```
 The snapshot provides a recovery point. If I make a mistake during later cybersecurity exercises, I can restore the VM to this clean setup.
+
+<img width="2784" height="1934" alt="image" src="https://github.com/user-attachments/assets/37d6615b-28c7-4c9f-b780-58ba0bcc349f" />
+<img width="1418" height="1188" alt="image" src="https://github.com/user-attachments/assets/3c1eee73-eb85-4344-ba9b-1c4b767d6aa9" />
 
 **Problems I Encountered**
 
