@@ -160,13 +160,13 @@ GitHub
 
 **Phase 1 Status**
 
- VirtualBox installed
- NAT Network created
- Kali Linux installed
- Kali network configured
- Network connectivity tested
- Kali GUI configured
- Clean snapshot created
+ -VirtualBox installed
+ -NAT Network created
+ -Kali Linux installed
+ -Kali network configured
+ -Network connectivity tested
+ -Kali GUI configured
+ -Clean snapshot created
 
 
 
