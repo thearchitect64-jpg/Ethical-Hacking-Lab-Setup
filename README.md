@@ -100,7 +100,6 @@ Snapshot Name : CleanKali 2026.2
 ```
 The snapshot provides a recovery point. If I make a mistake during later cybersecurity exercises, I can restore the VM to this clean setup.
 
-
 **Problems I Encountered**
 
 **Problem 1** **- Kali Internet Connectivity**
